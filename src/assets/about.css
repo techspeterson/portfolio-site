@@ -1,0 +1,34 @@
+.content-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+img {
+  width: 250px;
+  border: 3px solid var(--purple3);
+  border-radius: 10px;
+  float: left;
+  margin: 20px;
+}
+
+.skills {
+  width: 70%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skill-icon-outer {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: var(--pink);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skill-icon {
+  font-size: 28px;
+  color: white;
+}
