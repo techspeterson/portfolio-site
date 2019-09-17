@@ -1,0 +1,17 @@
+@media only screen and (max-width: 500px) {
+  .container {
+    width: 100vw;
+  }
+
+  nav {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 80px;
+    flex-direction: row;
+  }
+
+  nav ul {
+    flex-direction: row;
+  }
+}
