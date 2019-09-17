@@ -15,10 +15,11 @@
 
   .nav-links {
     flex-direction: row;
+    justify-content: center;
   }
 
   .nav-link {
-    width: auto;
+    width: 50px;
     margin: 0 2px;
   }
 
@@ -28,7 +29,14 @@
 
   .pro-links {
     margin: 0;
+    display: none;
   }
+
+  /* .pro-links a {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+  } */
 
   .content {
     width: 100vw;

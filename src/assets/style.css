@@ -1,3 +1,5 @@
+@import "nav.css";
+
 :root {
   --purple1: #220E2E;
   --purple2: #401C4A;
@@ -28,83 +30,6 @@ body {
   display: flex;
 }
 
-nav {
-  position: sticky;
-  top: 0;
-  background: var(--purple3);
-  width: 200px;
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  z-index: 1;
-  flex-shrink: 0;
-}
-
-.nav-links {
-  padding: 0;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.nav-link {
-  list-style-type: none;
-  display: block;
-  height: 60px;
-  width: 80%;
-  background: var(--purple2);
-  margin: 10px;
-  padding: 0 10px;
-  font-family: 'Josefin Sans', sans-serif;
-  text-decoration: none;
-  color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  border-radius: 10px;
-}
-
-.nav-link li {
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.link-icon {
-  font-size: 26px;
-  color: var(--pink);
-}
-
-.home-link {
-  height: 100px;
-}
-
-.pro-links {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-evenly;
-  padding: 0;
-  width: 100%;
-  margin-bottom: 20px;
-}
-
-.pro-links a {
-  background: var(--pink);
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  text-decoration: none;
-  font-size: 28px;
-}
-
 .content {
   flex-grow: 1;
 }
@@ -130,9 +55,37 @@ p {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
-  color: var(--purple1);
+  color: var(--purple2);
   font-family: 'Josefin Sans', sans-serif;
   font-size: 50px;
   text-transform: lowercase;
   padding-right: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.page-header .header-icon:nth-child(1) {
+  transform: scale(2);
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+
+.page-header .header-icon:nth-child(2) {
+  transform: scale(4);
+  position: absolute;
+  left: 120px;
+  top: 30px;
+  opacity: 0.5;
+}
+
+.header-text {
+  text-shadow: 0 0 7px white;
+  z-index: 1;
+}
+
+footer {
+  text-align: center;
+  font-size: 12px;
+  margin: 10px 0;
 }
