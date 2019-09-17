@@ -1,6 +1,7 @@
 @media only screen and (max-width: 500px) {
   .container {
     width: 100vw;
+    flex-direction: column;
   }
 
   nav {
@@ -9,9 +10,32 @@
     width: 100vw;
     height: 80px;
     flex-direction: row;
+    align-items: center;
   }
 
-  nav ul {
+  .nav-links {
     flex-direction: row;
+  }
+
+  .nav-link {
+    width: auto;
+    margin: 0 2px;
+  }
+
+  .nav-name {
+    display: none;
+  }
+
+  .pro-links {
+    margin: 0;
+  }
+
+  .content {
+    width: 100vw;
+    left: 0;
+  }
+
+  .column {
+    width: 100%;
   }
 }

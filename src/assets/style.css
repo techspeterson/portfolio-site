@@ -1,6 +1,9 @@
 :root {
-  --container-width: 900px;
-  --nav-width: 200px;
+  --purple1: #220E2E;
+  --purple2: #401C4A;
+  --purple3: #96468A;
+  --pink: #D581BE;
+  --orange: #E27566;
 }
 
 * {
@@ -9,27 +12,34 @@
 }
 
 body {
-  background: gray;
+  background: var(--purple1);
+  background-image: url(./vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+  color: var(--purple1);
+  font-family: 'Lato', sans-serif;
 }
 
 .container {
   background: white;
-  width: var(--container-width);
-  height: 100vh;
+  width: 70vw;
+  min-height: 100vh;
   margin: 0 auto;
+  display: flex;
 }
 
 nav {
-  position: fixed;
+  position: sticky;
   top: 0;
-  left: calc((100vw - var(--container-width)) / 2);
-  background: lightgray;
-  width: var(--nav-width);
+  background: var(--purple3);
+  width: 200px;
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  z-index: 1;
+  flex-shrink: 0;
 }
 
 .nav-links {
@@ -45,21 +55,28 @@ nav {
   display: block;
   height: 60px;
   width: 80%;
-  background: gray;
+  background: var(--purple2);
+  margin: 10px;
+  padding: 0 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-decoration: none;
+  color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 10px;
-  padding: 0 10px;
+  border-radius: 10px;
 }
 
-.nav-link a {
-  font-family: 'Josefin Sans', sans-serif;
-  text-decoration: none;
+.nav-link li {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .link-icon {
   font-size: 26px;
+  color: var(--pink);
 }
 
 .home-link {
@@ -76,7 +93,8 @@ nav {
 }
 
 .pro-links a {
-  background: gray;
+  background: var(--pink);
+  color: white;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -88,7 +106,33 @@ nav {
 }
 
 .content {
-  position: relative;
-  left: var(--nav-width);
-  width: calc(var(--container-width) - var(--nav-width));
+  flex-grow: 1;
+}
+
+h2 {
+  font-family: 'Josefin Sans', sans-serif;
+  color: var(--purple3);
+  text-align: center;
+  padding: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.page-header {
+  width: 70%;
+  height: 100px;
+  margin: 30px auto;
+  border: 3px solid var(--purple2);
+  border-radius: 10px;
+  background: var(--purple3);
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  color: var(--purple1);
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 50px;
+  text-transform: lowercase;
+  padding-right: 10px;
 }
