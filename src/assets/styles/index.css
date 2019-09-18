@@ -30,12 +30,6 @@
   align-items: center;
 }
 
-img {
-  width: 80%;
-  border: 3px solid var(--purple3);
-  border-radius: 10px;
-}
-
 .blog-posts {
   padding: 0;
   width: 100%;
@@ -94,5 +88,5 @@ img {
   transform: scale(0.7);
   position: absolute;
   top: -50px;
-  left: 180px;
+  left: 160px;
 }

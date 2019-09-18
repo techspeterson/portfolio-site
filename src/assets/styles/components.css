@@ -52,10 +52,13 @@
 
 .link-button:hover {
   transform: scale(1.1);
+  background: var(--orange);
+  color: white;
 }
 
 .centre-text {
   align-self: center;
+  text-align: center;
 }
 
 .pro-links {
@@ -99,4 +102,30 @@
 
 .pro-icon-svg {
   height: 28px;
+}
+
+.captioned-image-container {
+  margin: 10px;
+}
+
+.captioned-image {
+  border: 3px solid var(--purple3);
+  border-radius: 10px;
+}
+
+.caption {
+  font-size: 12px;
+  color: var(--pink);
+  font-style: italic;
+}
+
+.caption::before {
+  content: "Caption: ";
+}
+
+.image-border {
+  width: 80%;
+  border: 3px solid var(--purple3);
+  border-radius: 10px;
+  margin: 10px;
 }

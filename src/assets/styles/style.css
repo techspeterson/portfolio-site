@@ -60,12 +60,14 @@ strong {
 }
 
 a {
-  color: var(--purple3);
+  color: var(--pink);
   font-weight: bold;
+  text-decoration: none;
 }
 
 a:hover {
   color: var(--orange);
+  transform: scale(1.1);
 }
 
 footer {
