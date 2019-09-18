@@ -1,0 +1,45 @@
+.content-inner {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.info-container {
+  width: 100%;
+  display: flex;
+  margin: 20px 0;
+}
+
+.quick-info {
+  width: 30%;
+  flex-shrink: 0;
+  border: 3px solid var(--purple3);
+  border-radius: 10px;
+  align-self: center;
+  padding: 10px;
+}
+
+.info-container img {
+  min-width: 200px;
+  padding: 0;
+}
+
+.quick-info li {
+  margin-bottom: 7px;
+}
+
+.extended-info {
+  flex-grow: 1;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.info-container:nth-of-type(even) .quick-info {
+  order: 1;
+}
+
+.history-links {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}

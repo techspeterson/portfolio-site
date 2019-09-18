@@ -27,7 +27,7 @@
   align-items: flex-start;
 }
 
-.blog-entry:nth-child(odd) .main-img {
+.blog-entry:nth-of-type(odd) .main-img {
   float: left;
 }
 

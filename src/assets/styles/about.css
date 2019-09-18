@@ -32,4 +32,6 @@ img {
 .skill-icon {
   font-size: 28px;
   color: white;
+  width: 30px;
+  height: 30px;
 }

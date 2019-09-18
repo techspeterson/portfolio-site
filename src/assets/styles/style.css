@@ -15,7 +15,7 @@
 
 body {
   background: var(--purple1);
-  background-image: url(./vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+  background-image: url(../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
   background-size: contain;
   background-attachment: fixed;
   color: var(--purple1);
@@ -34,7 +34,7 @@ body {
   flex-grow: 1;
 }
 
-h2 {
+h2, h3 {
   font-family: 'Josefin Sans', sans-serif;
   color: var(--purple3);
   text-align: center;
@@ -43,6 +43,27 @@ h2 {
 
 p {
   margin: 10px 0;
+}
+
+ul {
+  padding-left: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+strong {
+  color: var(--purple2);
+}
+
+a {
+  color: var(--purple3);
+  font-weight: bold;
+}
+
+a:hover {
+  color: var(--orange);
 }
 
 .page-header {
@@ -88,4 +109,22 @@ footer {
   text-align: center;
   font-size: 12px;
   margin: 10px 0;
+}
+
+.link-button {
+  background: var(--purple2);
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.link-button:hover {
+  transform: scale(1.1);
+}
+
+.centre-text {
+  align-self: center;
 }
