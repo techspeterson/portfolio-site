@@ -23,6 +23,10 @@
     margin: 0 2px;
   }
 
+  .home-link {
+    height: 60px;
+  }
+
   .nav-name {
     display: none;
   }
@@ -32,12 +36,6 @@
     display: none;
   }
 
-  /* .pro-links a {
-    width: 40px;
-    height: 40px;
-    font-size: 25px;
-  } */
-
   .content {
     width: 100vw;
     left: 0;
@@ -45,5 +43,31 @@
 
   .column {
     width: 100%;
+  }
+
+  .page-header {
+    width: 90%;
+  }
+
+  .main-img {
+    width: 150px;
+  }
+
+  .padder {
+    display: none;
+  }
+
+  .info-container {
+    flex-direction: column;
+  }
+
+  .info-container:nth-of-type(even) .quick-info {
+    order: initial;
+  }
+
+  .quick-info {
+    width: 100%;
+    order: initial;
+    margin-bottom: 10px;
   }
 }
