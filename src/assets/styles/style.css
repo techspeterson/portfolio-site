@@ -32,6 +32,7 @@ body {
 
 .content {
   flex-grow: 1;
+  position: relative;
 }
 
 h2, h3 {
@@ -109,6 +110,9 @@ footer {
   text-align: center;
   font-size: 12px;
   margin: 10px 0;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
 }
 
 .link-button {

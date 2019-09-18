@@ -72,9 +72,15 @@ nav {
   padding: 0;
   width: 100%;
   margin-bottom: 10px;
+  flex-direction: column;
+  align-items: center;
 }
 
-.pro-links a {
+.pro-links li {
+
+}
+
+.pro-links-icon-outer {
   background: var(--pink);
   color: white;
   display: flex;
@@ -85,10 +91,24 @@ nav {
   border-radius: 50%;
   text-decoration: none;
   font-size: 28px;
+  margin: 10px;
+}
+
+.pro-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
 }
 
 .pro-links a:hover {
-  background: var(--orange);
   transform: scale(1.1);
-  color: white;
+}
+
+.pro-links a:hover .pro-links-icon-outer {
+  background: var(--orange);
+}
+
+.padder {
+  width: 100%;
+  height: 100px;
 }
