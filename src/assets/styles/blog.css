@@ -1,6 +1,6 @@
 /* Reusable container for blog entries */
 .blog-entry {
-  width: 90%;
+  width: 100%;
   margin: 0 auto 20px auto;
   border: 3px solid var(--purple3);
   border-radius: 10px;
@@ -21,10 +21,6 @@
   max-width: 250px;
   float: right;
 }
-
-/* .main-blog-img img {
-  width: 100%;
-} */
 
 .blog-header {
   display: flex;

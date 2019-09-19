@@ -9,7 +9,7 @@ An image decorated with text and icons that represent the page */
   margin: 30px auto;
   border: 3px solid var(--purple2);
   border-radius: 10px;
-  background: var(--purple3);
+  background: var(--purple1);
   background-image: url(../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
   background-size: cover;
   display: flex;
@@ -80,6 +80,10 @@ Changes in colour + size when hovered over */
   align-items: center;
 }
 
+.pro-links-name {
+  margin-right: 10px;
+}
+
 .pro-links-icon-outer {
   background: var(--pink);
   color: white;
@@ -92,6 +96,7 @@ Changes in colour + size when hovered over */
   text-decoration: none;
   font-size: 28px;
   margin: 10px;
+  flex-shrink: 0;
 }
 
 .pro-links a {
@@ -136,10 +141,13 @@ Displays a given image with a caption underneath */
 
 /* Displays an image with a simple border to match the style of the site */
 .image-border {
-  width: 80%;
   border: 3px solid var(--purple3);
   border-radius: 10px;
   margin: 10px;
+}
+
+.column-img {
+  width: 80%;
 }
 
 /* Wrapper that places an icon in the corner of image if user can click on it to view the full size image */

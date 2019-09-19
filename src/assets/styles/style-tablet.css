@@ -1,13 +1,13 @@
 @media only screen and (max-width: 800px) {
   .container {
-    width: 95vw;
+    width: 100%;
   }
 
   body {
     background-size: cover;
   }
 
-  .main-img {
+  .main-blog-img {
     width: 200px;
   }
 }

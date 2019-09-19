@@ -10,29 +10,32 @@
     width: 100vw;
     height: 80px;
     flex-direction: row;
+    justify-content: center;
     align-items: center;
+    border-radius: 0 0 20px 20px;
   }
 
   .nav-links {
     flex-direction: row;
     justify-content: center;
+    width: auto;
   }
 
   .nav-link {
-    width: 50px;
+    width: 60px;
     margin: 0 2px;
+  }
+
+  .nav-link li {
+    justify-content: center;
   }
 
   .home-link {
     height: 60px;
+    justify-content: center;
   }
 
   .nav-name {
-    display: none;
-  }
-
-  .pro-links {
-    margin: 0;
     display: none;
   }
 
@@ -49,8 +52,15 @@
     width: 90%;
   }
 
-  .main-img {
-    width: 150px;
+  .main-blog-img {
+    float: none;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+  }
+
+  .blog-entry:nth-of-type(odd) .main-blog-img {
+    float: none;
   }
 
   .padder {

@@ -78,3 +78,8 @@ footer {
   width: 100%;
   bottom: 0;
 }
+
+.content-inner {
+  width: 90%;
+  margin: 0 auto;
+}

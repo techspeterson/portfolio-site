@@ -15,6 +15,10 @@
   position: relative;
 }
 
+.header-word::before, .header-word::after {
+  content: "\202F";
+}
+
 .column-container {
   width: 90%;
   margin: 0 auto 50px auto;
@@ -62,10 +66,11 @@
 
 .star-box {
   position: absolute;
-  left: -80px;
+  left: -50px;
+  top: 0px;
 }
 
-.star {
+.star, .small-star {
   color: var(--orange);
 }
 
@@ -89,4 +94,23 @@
   position: absolute;
   top: -50px;
   left: 160px;
+}
+
+/* Decoration for heading elements on index page */
+.heading-container {
+  position: relative;
+}
+
+.small-star {
+  position: absolute;
+  font-size: 50px;
+  top: -5px;
+  left: calc(50% - 25px);
+  z-index: 0;
+  opacity: 0.7;
+}
+
+.heading-text {
+  z-index: 1;
+  position: relative;
 }
