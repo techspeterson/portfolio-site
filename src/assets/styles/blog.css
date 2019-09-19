@@ -1,3 +1,4 @@
+/* Reusable container for blog entries */
 .blog-entry {
   width: 90%;
   margin: 0 auto 20px auto;
@@ -21,9 +22,9 @@
   float: right;
 }
 
-.main-blog-img img {
+/* .main-blog-img img {
   width: 100%;
-}
+} */
 
 .blog-header {
   display: flex;

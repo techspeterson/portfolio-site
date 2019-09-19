@@ -9,18 +9,24 @@
   margin: 20px 0;
 }
 
+/* Container for quick info or images relating to the topic */
 .quick-info {
   width: 30%;
   flex-shrink: 0;
-  border: 3px solid var(--purple3);
-  border-radius: 10px;
   align-self: center;
-  padding: 10px;
+  overflow: hidden;
 }
 
-.info-container img {
-  min-width: 200px;
-  padding: 0;
+.quick-info-img {
+  border: 3px solid var(--purple3);
+  border-radius: 10px;
+  width: 100%;
+}
+
+.quick-info ul {
+  border: 3px solid var(--purple3);
+  border-radius: 10px;
+  padding: 10px;
 }
 
 .quick-info li {
@@ -42,4 +48,11 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  margin: 20px 0;
+}
+
+/* Component that clearly labels list of technologies used in the project */
+.used-tech::before {
+  content: "Technologies used: ";
+  font-weight: bold;
 }

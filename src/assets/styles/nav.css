@@ -1,3 +1,7 @@
+/* Nav sidebar present on every page
+Sidebar is sticky and doesn't scroll
+Links change in size and appearance when hovered over */
+
 nav {
   position: sticky;
   top: 0;
