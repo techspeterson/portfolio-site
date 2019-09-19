@@ -1,6 +1,6 @@
 # T1A3 - Portfolio - Tessa Peterson
 
-- [Site](https://techspeterson-portfolio.netlify.com/src/index.html)
+- [Site](https://techspeterson-portfolio.netlify.com/)
 - [Github](https://github.com/techspeterson/portfolio-site)
 
 ## Purpose

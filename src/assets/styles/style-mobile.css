@@ -26,17 +26,22 @@
     margin: 0 2px;
   }
 
-  .nav-link li {
+  .nav-link li, .home-link {
+    flex-direction: column-reverse;
     justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    text-align: center;
   }
 
   .home-link {
     height: 60px;
-    justify-content: center;
   }
 
   .nav-name {
-    display: none;
+    /* display: none; */
+    display: relative;
+    top: 30px;
   }
 
   .content {
