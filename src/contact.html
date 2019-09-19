@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Tessa Peterson - Contact Me</title>
   <link rel="stylesheet" href="./assets/styles/style.css">
-  <link rel="stylesheet" href="./assets/styles/history.css">
+  <link rel="stylesheet" href="./assets/styles/contact.css">
   <link rel="stylesheet" href="./assets/styles/style-tablet.css">
   <link rel="stylesheet" href="./assets/styles/style-mobile.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato&display=swap" rel="stylesheet">
@@ -47,12 +47,12 @@
 
       <div class="content-inner">
         <ul class="pro-links">
-          <li>
+          <!-- <li>
             <a href="#">
               <div class="pro-links-icon-outer"><i class="fas fa-envelope pro-links-icon"></i></div>
               <span class="pro-links-name">tpeterson.engsci@gmail.com</span>
             </a>
-          </li>
+          </li> -->
           <li>
             <a href="https://twitter.com/techspeterson">
               <div class="pro-links-icon-outer"><i class="fab fa-twitter pro-links-icon"></i></div>
@@ -72,6 +72,14 @@
             </a>
           </li>
         </ul>
+
+        <h2>Email Me</h2>
+        <form action="https://formspree.io/tpeterson.engsci@gmail.com" method="POST">
+          <label for="name">Name:</label> <input type="text" name="name" id="name">
+          <label for="email">Email:</label> <input type="email" name="_replyto" id="email">
+          <label for="message">Message:</label> <textarea name="message" id="message"></textarea>
+          <input type="submit" value="Send" class="link-button">
+        </form>
       </div>
     </div>
   </div>

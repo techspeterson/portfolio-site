@@ -80,4 +80,9 @@
     order: initial;
     margin-bottom: 10px;
   }
+
+  form {
+    width: 80%;
+    grid-gap: 10px;
+  }
 }

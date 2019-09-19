@@ -1,0 +1,17 @@
+form {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+label {
+  font-weight: bold;
+  color: var(--purple2);
+}
+
+[type="submit"] {
+  border: 0;
+  grid-column: 1 / 3;
+}

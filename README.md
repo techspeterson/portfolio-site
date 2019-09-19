@@ -1,7 +1,7 @@
 # T1A3 - Portfolio - Tessa Peterson
 
-- [Site](#)
-- [Github](#)
+- [Site](https://techspeterson-portfolio.netlify.com/src/index.html)
+- [Github](https://github.com/techspeterson/portfolio-site)
 
 ## Purpose
 This site is a personal portfolio website designed to practically showcase my web design skills and design sense while also providing insight into my professional skills and history.
