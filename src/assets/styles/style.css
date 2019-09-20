@@ -1,3 +1,5 @@
+/* General layout stuff */
+
 @import "nav.css";
 @import "components.css";
 
@@ -73,7 +75,7 @@ a:hover {
 footer {
   text-align: center;
   font-size: 12px;
-  margin: 20px 0 10px 0;
+  margin: 10px 0;
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -81,5 +83,5 @@ footer {
 
 .content-inner {
   width: 90%;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
 }

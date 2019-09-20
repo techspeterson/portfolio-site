@@ -17,6 +17,9 @@ This portfolio includes:
 ![Sitemap](docs/portfolio-site-map.png)
 
 ## Screenshots
+![Index](docs/chrome_2019-09-20_14-13-04.png)
+![Blog](docs/chrome_2019-09-20_14-12-45.png)
+![Projects](docs/chrome_2019-09-20_14-16-24.png)
 
 ## Target audience
 This site is aimed at potential employers as a demonstration of the skills I can apply to the workplace, but also can serve as an introduction to me for anyone in the tech industry discovering my profile.
