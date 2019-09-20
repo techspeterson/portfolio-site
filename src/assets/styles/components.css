@@ -47,7 +47,7 @@ header .header-icon:nth-child(2) {
 
 /* Link button - a rounded button used to decorate some navigation links */
 .link-button {
-  background: var(--purple2);
+  background: var(--purple3);
   padding: 10px;
   border-radius: 10px;
   font-family: 'Josefin Sans', sans-serif;

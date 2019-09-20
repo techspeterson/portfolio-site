@@ -5,7 +5,7 @@ Links change in size and appearance when hovered over */
 nav {
   position: sticky;
   top: 0;
-  background: var(--purple3);
+  background: var(--purple2);
   width: 200px;
   height: calc(100vh - 10px);
   display: flex;
@@ -30,7 +30,7 @@ nav {
   display: block;
   height: 60px;
   width: 80%;
-  background: var(--purple2);
+  background: var(--purple3);
   margin: 10px;
   padding: 0 10px;
   font-family: 'Josefin Sans', sans-serif;
@@ -53,12 +53,12 @@ nav {
 
 .link-icon {
   font-size: 26px;
-  color: var(--pink);
+  color: var(--purple2);
   margin: 0 5px;
 }
 
 .nav-name {
-  color: white;
+  color: var(--purple1);
   margin: 0 5px;
 }
 
@@ -73,12 +73,12 @@ nav {
 .nav-link:hover .nav-name {
   transform: rotate(-5deg);
   z-index: 1;
-  color: white;
+  color: var(--orange);
 }
 
 .nav-link:hover .link-icon {
   transform: scale(1.1) rotate(5deg);
-  color: var(--orange);
+  color: var(--pink);
 }
 
 .padder {
