@@ -16,47 +16,66 @@
 
 <body>
   <div class="container">
+    <!-- Sidebar -->
     <nav>
-      <a href="./index.html" class="nav-link home-link"><span class="nav-name">tess central</span> <i
-          class="fas fa-home link-icon"></i></a>
-
+      <a href="./index.html" class="nav-link home-link">
+        <span class="nav-name">tess central</span>
+        <i class="fas fa-home link-icon"></i>
+      </a>
       <ul class="nav-links">
-        <a href="./about-me.html" class="nav-link">
-          <li><span class="nav-name">About Me</span> <i class="fas fa-user-circle link-icon"></i></li>
-        </a>
-        <a href="./history.html" class="nav-link">
-          <li><span class="nav-name">History</span> <i class="fas fa-graduation-cap link-icon"></i></li>
-        </a>
-        <a href="./blog.html" class="nav-link">
-          <li><span class="nav-name">Blog</span> <i class="fas fa-book-open link-icon"></i></li>
-        </a>
-        <a href="./contact.html" class="nav-link">
-          <li><span class="nav-name">Contact</span> <i class="fas fa-paper-plane link-icon"></i></li>
-        </a>
-      </ul>
+        <li class="nav-link">
+          <a href="./about-me.html">
+            <span class="nav-name">About Me</span>
+            <i class="fas fa-user-circle link-icon"></i>
+          </a>
+        </li>
 
+        <li class="nav-link">
+          <a href="./history.html">
+            <span class="nav-name">History</span>
+            <i class="fas fa-graduation-cap link-icon"></i>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./blog.html">
+            <span class="nav-name">Blog</span>
+            <i class="fas fa-user-circle link-icon"></i>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./contact.html">
+            <span class="nav-name">Contact</span>
+            <i class="fas fa-paper-plane link-icon"></i>
+          </a>
+        </li>
+      </ul>
       <div class="padder"></div>
     </nav>
 
     <div class="content">
-      <h1 class="main-header">
+      <!-- Large unique header for index page -->
+      <div class="main-header">
         <div class="header-word">
           <div class="star-box">
             <i class="fas fa-star star"></i>
             <i class="fas fa-star star"></i>
             <i class="fas fa-star star"></i>
           </div>Tessa
+
         </div>
         <div class="header-word">Peterson</div>
-      </h1>
-
+      </div>
       <div class="column-container">
         <div class="column">
           <img src="./assets/images/portrait.jpg" alt="Portrait of Tessa" class="image-border column-img">
           <div class="heading-container">
+            <!-- Decorated heading -->
             <i class="fas fa-star small-star"></i>
             <h2 class="heading-text">Latest Posts</h2>
           </div>
+          <!-- List of blog posts -->
           <ul class="latest-posts">
             <li class="latest-posts-entry">
               <a href="./blog.html#entry1" class="latest-post-name">Cats are great</a>
@@ -85,32 +104,36 @@
             <i class="fas fa-star small-star"></i>
             <h2 class="heading-text">Welcome!</h2>
           </div>
-          <p>I'm junior developer Tessa Peterson, and you're looking at my portfolio website. Feel free to browse my
-            study history, personal interests and showcased projects.</p>
-          <div class="captioned-image-container column-img">
+          <p>I'm
+            <strong>junior developer</strong> Tessa Peterson, and you're looking at my portfolio website. Feel free
+            to browse my
+            study history, personal interests and showcased projects.
+          </p>
+          <!-- Image with caption -->
+          <figure class="column-img">
             <img src="./assets/images/cluedo-pres.jpg" alt="Me at the presentation for my Cluedo app"
               class="captioned-image">
-            <p class="caption">Me presenting my Cluedo Ruby app</p>
-          </div>
-
-
+            <figcaption>Me presenting my Cluedo Ruby app</figcaption>
+          </figure>
           <div class="heading-container">
             <i class="fas fa-star small-star"></i>
             <h2 class="heading-text">Credits</h2>
           </div>
-          <p>
-            <ul>
-              <li class="centre-text">Background photo by Vincentiu Solomon on <a
-                  href="https://unsplash.com/">Unsplash</a></li>
-              <li class="centre-text">Icons from <a href="https://fontawesome.com/">Font Awesome</a> and <a
-                  href="https://simpleicons.org/">simpleicons</a></li>
-              <li class="centre-text">Contact form by <a href="https://formspree.io/">Formspree</a></li>
-            </ul>
-          </p>
-
+          <ul>
+            <li class="centre-text">Background photo by Vincentiu Solomon on
+              <a href="https://unsplash.com/">Unsplash</a>
+            </li>
+            <li class="centre-text">Icons from
+              <a href="https://fontawesome.com/">Font Awesome</a> and
+              <a href="https://simpleicons.org/">simpleicons</a>
+            </li>
+            <li class="centre-text">Contact form by
+              <a href="https://formspree.io/">Formspree</a>
+            </li>
+          </ul>
         </div>
       </div>
-
+      <!-- Footer -->
       <footer>
         Made by Tessa Peterson for Coder Academy 2019
       </footer>

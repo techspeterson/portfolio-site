@@ -17,24 +17,39 @@
 <body>
   <div class="container" id="top">
     <nav>
-      <a href="./index.html" class="nav-link home-link"><span class="nav-name">tess central</span> <i
-          class="fas fa-home link-icon"></i></a>
-
+      <a href="./index.html" class="nav-link home-link">
+        <span class="nav-name">tess central</span>
+        <i class="fas fa-home link-icon"></i>
+      </a>
       <ul class="nav-links">
-        <a href="./about-me.html" class="nav-link">
-          <li><span class="nav-name">About Me</span> <i class="fas fa-user-circle link-icon"></i></li>
-        </a>
-        <a href="./history.html" class="nav-link">
-          <li><span class="nav-name">History</span> <i class="fas fa-graduation-cap link-icon"></i></li>
-        </a>
-        <a href="./blog.html" class="nav-link">
-          <li><span class="nav-name">Blog</span> <i class="fas fa-book-open link-icon"></i></li>
-        </a>
-        <a href="./contact.html" class="nav-link">
-          <li><span class="nav-name">Contact</span> <i class="fas fa-paper-plane link-icon"></i></li>
-        </a>
-      </ul>
+        <li class="nav-link">
+          <a href="./about-me.html">
+            <span class="nav-name">About Me</span>
+            <i class="fas fa-user-circle link-icon"></i>
+          </a>
+        </li>
 
+        <li class="nav-link">
+          <a href="./history.html">
+            <span class="nav-name">History</span>
+            <i class="fas fa-graduation-cap link-icon"></i>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./blog.html">
+            <span class="nav-name">Blog</span>
+            <i class="fas fa-user-circle link-icon"></i>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./contact.html">
+            <span class="nav-name">Contact</span>
+            <i class="fas fa-paper-plane link-icon"></i>
+          </a>
+        </li>
+      </ul>
       <div class="padder"></div>
     </nav>
 
@@ -47,6 +62,7 @@
 
       <div class="content-inner">
         <h2>Latest Posts</h2>
+        <!-- List of latest posts (with links) -->
         <ul class="latest-posts">
           <li class="latest-posts-entry">
             <a href="#entry1" class="latest-post-name">Cats are great</a>
@@ -70,11 +86,16 @@
           </li>
         </ul>
 
+        <!-- container for blog entry (each can be linked to individually) -->
         <article class="blog-entry" id="entry1">
+
+          <!-- captioned image -->
           <figure class="main-blog-img">
             <img src="./assets/images/blog-cat2.jpg" alt="Bailey, asleep, somehow." class="captioned-image">
             <figcaption>Bailey, asleep, somehow.</figcaption>
           </figure>
+
+          <!-- entry content -->
           <div class="blog-header">
             <h2 class="blog-title">Cats are great</h2>
             <h3 class="blog-date">Posted on 20 Sept 2019</h3>
@@ -88,6 +109,7 @@
             quaerat sapiente possimus veniam dolores fugit corporis saepe.</p>
         </article>
 
+        <!-- Button-style link -->
         <a href="#top" class="link-button centre-text"><i class="fas fa-arrow-up"></i> Back to top</a>
 
         <article class="blog-entry" id="entry2">

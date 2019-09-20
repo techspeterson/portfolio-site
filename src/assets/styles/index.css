@@ -109,7 +109,7 @@
 .small-star {
   position: absolute;
   font-size: 50px;
-  top: -5px;
+  top: 5px;
   left: calc(50% - 25px);
   z-index: 0;
   opacity: 0.7;
@@ -118,5 +118,6 @@
 .heading-text {
   z-index: 1;
   position: relative;
+  margin: 10px auto;
 }
 /* end of component */

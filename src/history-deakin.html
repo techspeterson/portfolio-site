@@ -17,24 +17,39 @@
 <body>
   <div class="container">
     <nav>
-      <a href="./index.html" class="nav-link home-link"><span class="nav-name">tess central</span> <i
-          class="fas fa-home link-icon"></i></a>
-
+      <a href="./index.html" class="nav-link home-link">
+        <span class="nav-name">tess central</span>
+        <i class="fas fa-home link-icon"></i>
+      </a>
       <ul class="nav-links">
-        <a href="./about-me.html" class="nav-link">
-          <li><span class="nav-name">About Me</span> <i class="fas fa-user-circle link-icon"></i></li>
-        </a>
-        <a href="./history.html" class="nav-link">
-          <li><span class="nav-name">History</span> <i class="fas fa-graduation-cap link-icon"></i></li>
-        </a>
-        <a href="./blog.html" class="nav-link">
-          <li><span class="nav-name">Blog</span> <i class="fas fa-book-open link-icon"></i></li>
-        </a>
-        <a href="./contact.html" class="nav-link">
-          <li><span class="nav-name">Contact</span> <i class="fas fa-paper-plane link-icon"></i></li>
-        </a>
-      </ul>
+        <li class="nav-link">
+          <a href="./about-me.html">
+            <span class="nav-name">About Me</span>
+            <i class="fas fa-user-circle link-icon"></i>
+          </a>
+        </li>
 
+        <li class="nav-link">
+          <a href="./history.html">
+            <span class="nav-name">History</span>
+            <i class="fas fa-graduation-cap link-icon"></i>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./blog.html">
+            <span class="nav-name">Blog</span>
+            <i class="fas fa-user-circle link-icon"></i>
+          </a>
+        </li>
+
+        <li class="nav-link">
+          <a href="./contact.html">
+            <span class="nav-name">Contact</span>
+            <i class="fas fa-paper-plane link-icon"></i>
+          </a>
+        </li>
+      </ul>
       <div class="padder"></div>
     </nav>
 
@@ -73,7 +88,8 @@
           <article class="extended-info">
             <h3>SumoBot</h3>
             <p>A robot designed for "fighting" in a circular arena, with the intention of pushing an opponent out of the
-              ring without being pushed out itself. The robot was designed, built and programmed by me.</p>
+              ring without being pushed out itself. The robot was designed, built and programmed by me. It looks a bit
+              messy, but it worked!</p>
             <p>The robot makes use of multiple sensors to detect objects and arena boundaries. Primarily ultrasonic
               sensors are used for object detection in multiple directions, and line sensors on each edge of the robot
               detect the arena boundary. Differential steering is used to control the robot.</p>
@@ -95,6 +111,10 @@
               power source. The servo positions are determined by the master controller in the head and communicated to
               the other controllers via an I<sup>2</sup>C connection.
             </p>
+
+            <p>One of my aims for this project was to improve on a previous iteration of the snake robot by another
+              student. Thanks in part to the comparitively larger wheels this robot demonstrated a greater degree of
+              forward movement, but there is still a lot of room for improvement.</p>
 
             <p class="used-tech">Arduino</p>
           </article>

@@ -43,8 +43,9 @@ nav {
   text-transform: lowercase;
 }
 
-.nav-link li {
+.nav-link a {
   width: 100%;
+  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -53,20 +54,30 @@ nav {
 .link-icon {
   font-size: 26px;
   color: var(--pink);
+  margin: 0 5px;
+}
+
+.nav-name {
+  color: white;
+  margin: 0 5px;
 }
 
 .home-link {
   height: 100px;
 }
 
+.nav-link:hover {
+  transform: scale(1.1);
+}
+
 .nav-link:hover .nav-name {
-  transform: scale(1.1) rotate(-5deg);
+  transform: rotate(-5deg);
   z-index: 1;
   color: white;
 }
 
 .nav-link:hover .link-icon {
-  transform: scale(1.3) rotate(5deg);
+  transform: scale(1.1) rotate(5deg);
   color: var(--orange);
 }
 

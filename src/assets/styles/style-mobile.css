@@ -26,7 +26,7 @@
     margin: 0 2px;
   }
 
-  .nav-link li, .home-link {
+  .nav-link a, .home-link {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
