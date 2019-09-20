@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <div class="container">
+  <div class="container" id="top">
     <nav>
       <a href="./index.html" class="nav-link home-link"><span class="nav-name">tess central</span> <i
           class="fas fa-home link-icon"></i></a>
@@ -39,14 +39,38 @@
     </nav>
 
     <div class="content">
-      <div class="page-header">
+      <header>
         <i class="fas fa-book-open header-icon"></i>
         <i class="fas fa-book-open header-icon"></i>
         <span class="header-text">Blog</span>
-      </div>
+      </header>
 
       <div class="content-inner">
-        <div class="blog-entry">
+        <h2>Latest Posts</h2>
+        <ul class="latest-posts">
+          <li class="latest-posts-entry">
+            <a href="#entry1" class="latest-post-name">Blog Entry 5</a>
+            <div class="latest-post-date">20-09-2019</div>
+          </li>
+          <li class="latest-posts-entry">
+            <a href="#entry2" class="latest-post-name">Status update: home again...</a>
+            <div class="latest-post-date">20-09-2019</div>
+          </li>
+          <li class="latest-posts-entry">
+            <a href="#entry3" class="latest-post-name">Status Update: still home</a>
+            <div class="latest-post-date">18-09-2019</div>
+          </li>
+          <li class="latest-posts-entry">
+            <a href="#entry4" class="latest-post-name">Status Update: working from home</a>
+            <div class="latest-post-date">18-09-2019</div>
+          </li>
+          <li class="latest-posts-entry">
+            <a href="#entry5" class="latest-post-name">Blog Entry 1</a>
+            <div class="latest-post-date">17-09-2019</div>
+          </li>
+        </ul>
+
+        <div class="blog-entry" id="entry1">
           <div class="captioned-image-container main-blog-img">
             <img src="https://cdn.pixabay.com/photo/2017/04/26/01/16/star-2261322_960_720.jpg" alt=""
               class="captioned-image">
@@ -54,7 +78,7 @@
           </div>
           <div class="blog-header">
             <h2 class="blog-title">Blog Entry 5</h2>
-            <h3 class="blog-date">Posted on 17 Sept 2019</h3>
+            <h3 class="blog-date">Posted on 20 Sept 2019</h3>
           </div>
           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolor, enim iusto error recusandae similique
             necessitatibus a fugiat, maiores voluptates assumenda omnis. Illo necessitatibus at nisi labore saepe
@@ -66,35 +90,38 @@
             Dolore, nulla amet!</p>
         </div>
 
+        <a href="#top" class="link-button centre-text"><i class="fas fa-arrow-up"></i> Back to top</a>
 
-        <div class="blog-entry">
+        <div class="blog-entry" id="entry2">
           <div class="captioned-image-container main-blog-img">
-            <img src="https://cdn.pixabay.com/photo/2017/04/26/01/16/star-2261322_960_720.jpg" alt=""
-              class="captioned-image">
-            <div class="caption">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, adipisci.</div>
+            <img src="./assets/images/blog-mouse.jpg" alt="My sister's hardcore Gamer Mouse" class="captioned-image">
+            <div class="caption">My sister's hardcore Gamer Mouse</div>
           </div>
           <div class="blog-header">
-            <h2 class="blog-title">Blog Entry 4</h2>
-            <h3 class="blog-date">Posted on 17 Sept 2019</h3>
+            <h2 class="blog-title">Status update: home again...</h2>
+            <h3 class="blog-date">Posted on 20 Sept 2019</h3>
           </div>
-          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum dolor, enim iusto error recusandae similique
-            necessitatibus a fugiat, maiores voluptates assumenda omnis. Illo necessitatibus at nisi labore saepe
-            repudiandae vel ab explicabo, non tempore exercitationem mollitia in quae adipisci veritatis doloremque
-            itaque
-            architecto provident maxime eveniet perspiciatis amet similique. Facere.</p>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellat, possimus? Accusantium error quidem
-            perspiciatis ab hic, eveniet qui nesciunt numquam quae aliquid delectus perferendis ducimus vel eligendi?
-            Dolore, nulla amet!</p>
+          <p>Glad I got to spend a bit of time working on this assignment in class, but unfortunately I'm stuck at home
+            again today...</p>
+          <p>My good old $8 mouse is seeing better days, so I'm borrowing my sister's presumably much more expensive
+            mouse... she got it free with her laptop, so I don't actually know how much more expensive. Why do "gamer"
+            products always look like that? All black and red and angular? A mystery for the ages.</p>
+          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime ducimus earum dolores cumque accusantium
+            natus excepturi modi accusamus nobis! Aperiam, eum fuga? Enim, labore, doloremque dolorem reiciendis ea odio
+            deserunt dolore cupiditate, dolorum facere ipsa. Illum reiciendis ipsum dolorem, a maxime ullam cum vitae
+            voluptatibus totam cumque, quibusdam fuga quod consectetur alias. Ipsam ad nemo sit possimus blanditiis, in
+            adipisci?</p>
         </div>
 
-        <div class="blog-entry">
+        <a href="#top" class="link-button centre-text"><i class="fas fa-arrow-up"></i> Back to top</a>
+
+        <div class="blog-entry" id="entry3">
           <div class="captioned-image-container main-blog-img">
-            <img src="https://cdn.pixabay.com/photo/2017/04/26/01/16/star-2261322_960_720.jpg" alt=""
-              class="captioned-image">
-            <div class="caption">this is gonna be a picture of my cool monitor</div>
+            <img src="./assets/images/blog-monitor.jpg" alt="My cool second monitor" class="captioned-image">
+            <div class="caption">My cool second monitor</div>
           </div>
           <div class="blog-header">
-            <h2 class="blog-title">Status Update: still home sick</h2>
+            <h2 class="blog-title">Status Update: still home</h2>
             <h3 class="blog-date">Posted on 18 Sept 2019</h3>
           </div>
           <p>You know what's actually great for coding? Dual monitor setup. It honestly changed my life. I got it to
@@ -108,14 +135,15 @@
             laboriosam.</p>
         </div>
 
-        <div class="blog-entry">
+        <a href="#top" class="link-button centre-text"><i class="fas fa-arrow-up"></i> Back to top</a>
+
+        <div class="blog-entry" id="entry4">
           <div class="captioned-image-container main-blog-img">
-            <img src="https://cdn.pixabay.com/photo/2017/04/26/01/16/star-2261322_960_720.jpg" alt=""
-              class="captioned-image">
-            <div class="caption">this is gonna be a picture of my cat</div>
+            <img src="./assets/images/blog-cat.jpg" alt="My cat, Bailey" class="captioned-image">
+            <div class="caption">My cat, Bailey</div>
           </div>
           <div class="blog-header">
-            <h2 class="blog-title">Status Update: home sick</h2>
+            <h2 class="blog-title">Status Update: working from home</h2>
             <h3 class="blog-date">Posted on 18 Sept 2019</h3>
           </div>
           <p>Here's a blog post! Making a portfolio is hard when you're sick and can barely think... thankfully Bailey
@@ -128,7 +156,9 @@
             laboriosam.</p>
         </div>
 
-        <div class="blog-entry">
+        <a href="#top" class="link-button centre-text"><i class="fas fa-arrow-up"></i> Back to top</a>
+
+        <div class="blog-entry" id="entry5">
           <div class="captioned-image-container main-blog-img">
             <img src="https://cdn.pixabay.com/photo/2017/04/26/01/16/star-2261322_960_720.jpg" alt=""
               class="captioned-image">
@@ -147,6 +177,8 @@
             perspiciatis ab hic, eveniet qui nesciunt numquam quae aliquid delectus perferendis ducimus vel eligendi?
             Dolore, nulla amet!</p>
         </div>
+
+        <a href="#top" class="link-button centre-text"><i class="fas fa-arrow-up"></i> Back to top</a>
       </div>
 
     </div>

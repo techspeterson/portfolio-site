@@ -4,7 +4,7 @@
 - [Github](https://github.com/techspeterson/portfolio-site)
 
 ## Purpose
-This site is a personal portfolio website designed to practically showcase my web design skills and design sense while also providing insight into my professional skills and history.
+This site is a personal portfolio website designed to practically showcase my web design skills and design sense while also providing insight into my professional skills and history, and showcasing my project portfolio.
 
 ## Features
 This portfolio includes:
@@ -14,6 +14,7 @@ This portfolio includes:
 - My professional contact links
 
 ## Sitemap
+![Sitemap](docs/portfolio-site-map.png)
 
 ## Screenshots
 

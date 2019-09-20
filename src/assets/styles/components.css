@@ -3,7 +3,7 @@ Some page-specific components are contained in their respective style sheets */
 
 /* Page header: displays at the top of every page other than index
 An image decorated with text and icons that represent the page */
-.page-header {
+header {
   width: 70%;
   height: 100px;
   margin: 30px auto;
@@ -24,14 +24,14 @@ An image decorated with text and icons that represent the page */
   overflow: hidden;
 }
 
-.page-header .header-icon:nth-child(1) {
+header .header-icon:nth-child(1) {
   transform: scale(2);
   position: absolute;
   left: 30px;
   top: 30px;
 }
 
-.page-header .header-icon:nth-child(2) {
+header .header-icon:nth-child(2) {
   transform: scale(4);
   position: absolute;
   left: 120px;
@@ -171,3 +171,36 @@ Displays a given image with a caption underneath */
 .view-full:hover .view-full-icon {
   transform: scale(1.1);
 }
+/* end of wrapper */
+
+/* for blog post list */
+.latest-posts {
+  padding: 0;
+  width: 100%;
+}
+
+.latest-posts-entry {
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid var(--purple3);
+}
+
+.latest-posts-entry:last-child {
+  border: 0;
+}
+
+.latest-post-name {
+  font-weight: 600;
+  /* color: var(--purple2); */
+}
+
+.latest-post-date {
+  font-size: 12px;
+  white-space: nowrap;
+  color: var(--pink);
+}
+/* end blog post list */
