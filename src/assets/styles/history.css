@@ -2,7 +2,7 @@
   width: 100%;
   display: flex;
   margin: 20px 0;
-  border: 3px solid var(--pink);
+  border: 2px solid gray;
   border-radius: 10px;
   padding: 10px;
 }
@@ -16,13 +16,13 @@
 }
 
 .quick-info-img {
-  border: 3px solid var(--purple3);
+  border: 2px solid black;
   border-radius: 10px;
   width: 100%;
 }
 
 .quick-info ul {
-  border: 3px solid var(--purple3);
+  border: 2px solid black;
   border-radius: 10px;
   padding: 10px;
 }

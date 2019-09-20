@@ -3,6 +3,11 @@
 @import "nav.css";
 @import "components.css";
 
+@font-face {
+  font-family: "Heffaklump";
+  src: url("../Heffaklump.ttf")
+}
+
 :root {
   --purple1: #220E2E;
   --purple2: #401C4A;
@@ -17,11 +22,11 @@
 }
 
 body {
-  background: var(--purple1);
-  background-image: url(../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
+  background: gray;
+  /* background-image: url(../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg); */
   background-size: contain;
   background-attachment: fixed;
-  color: var(--purple1);
+  color: black;
   font-family: 'Lato', sans-serif;
 }
 
@@ -39,10 +44,11 @@ body {
 }
 
 h2, h3 {
-  font-family: 'Josefin Sans', sans-serif;
-  color: var(--purple3);
+  font-family: 'Heffaklump', sans-serif;
+  /* color: var(--purple3); */
   text-align: center;
   padding: 10px 0;
+  text-transform: lowercase;
 }
 
 p {
@@ -57,18 +63,14 @@ li {
   list-style-type: none;
 }
 
-strong {
-  color: var(--purple2);
-}
-
 a {
-  color: var(--pink);
+  color: #0A09A2;
   font-weight: bold;
   text-decoration: none;
 }
 
 a:hover {
-  color: var(--orange);
+  color: orangered;
   transform: scale(1.1);
 }
 

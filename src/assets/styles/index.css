@@ -32,12 +32,12 @@
 }
 
 .main-header {
-  font-family: 'Josefin Sans', sans-serif;
+  font-family: 'Heffaklump', sans-serif;
   font-size: 72px;
   text-align: center;
   padding: 80px 0;
   text-transform: lowercase;
-  color: var(--purple2);
+  color: black;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,12 +58,9 @@
   top: 0px;
 }
 
-.star, .small-star {
-  color: var(--orange);
-}
-
 .star {
-  animation-duration: 2.5s
+  color: #989803;
+  animation-duration: 2.5s;
 }
 
 .star:nth-child(1) {
@@ -113,6 +110,7 @@
   left: calc(50% - 25px);
   z-index: 0;
   opacity: 0.7;
+  color: #FDFF94;
 }
 
 .heading-text {
