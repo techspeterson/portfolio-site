@@ -31,3 +31,13 @@
   justify-content: center;
   margin: 20px auto;
 }
+
+.content-inner:nth-of-type(1) {
+  margin-bottom: 0;
+}
+
+.content-inner::after {
+  content: "";
+  clear: both;
+  display: table;
+}

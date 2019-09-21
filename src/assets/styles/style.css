@@ -2,28 +2,20 @@
 
 @import "nav.css";
 @import "components.css";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato&display=swap');
 
 @font-face {
   font-family: "Heffaklump";
   src: url("../Heffaklump.ttf")
 }
 
-:root {
-  --purple1: #220E2E;
-  --purple2: #401C4A;
-  --purple3: #96468A;
-  --pink: #D581BE;
-  --orange: #E27566;
-}
-
 * {
-  margin: 0;
   box-sizing: border-box;
+  margin: 0;
 }
 
 body {
   background: gray;
-  /* background-image: url(../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg); */
   background-size: contain;
   background-attachment: fixed;
   color: black;
@@ -45,7 +37,6 @@ body {
 
 h2, h3 {
   font-family: 'Heffaklump', sans-serif;
-  /* color: var(--purple3); */
   text-align: center;
   padding: 10px 0;
   text-transform: lowercase;
