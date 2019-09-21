@@ -2,6 +2,7 @@
 
 @import "nav.css";
 @import "components.css";
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato&display=swap');
 
 :root {
   --purple1: #220E2E;
