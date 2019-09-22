@@ -16,7 +16,7 @@
 
 body {
   background: gray;
-  background-size: contain;
+  background-image: url("../images/chombybk.gif");
   background-attachment: fixed;
   color: black;
   font-family: 'Lato', sans-serif;
