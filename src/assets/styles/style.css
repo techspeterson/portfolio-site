@@ -2,14 +2,14 @@
 
 @import "nav.css";
 @import "components.css";
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:700|Raleway&display=swap');
 
 :root {
   --purple1: #220E2E;
-  --purple2: #401C4A;
-  --purple3: #96468A;
-  --pink: #D581BE;
-  --orange: #E27566;
+  --purple2: #C25550;
+  --purple3: #963A4E;
+  --pink: #EA887F;
+  --orange: #E77661;
 }
 
 * {
@@ -23,7 +23,7 @@ body {
   background-image: url(../images/vincentiu-solomon-ln5drpv_ImI-unsplash.jpg);
   background-size: contain;
   color: var(--purple1);
-  font-family: 'Lato', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .container {
